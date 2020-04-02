@@ -1,5 +1,5 @@
-data
-venv
-tmp.*
-dev
-.idea
+blog_trend/data
+blog_trend/venv
+blog_trend/tmp.*
+blog_trend/dev
+blog_trend/.idea
