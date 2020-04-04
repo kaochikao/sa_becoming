@@ -3,3 +3,4 @@ blog_trend/venv
 blog_trend/tmp.*
 blog_trend/dev
 blog_trend/.idea
+.idea
