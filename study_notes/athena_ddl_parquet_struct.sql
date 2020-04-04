@@ -14,3 +14,17 @@ LOCATION 's3://xxx/dummy/parquet_struct/';
 -- {"a": "val_a6", "b": "val_b6", "c": {"c1": "val_c61", "c2": "val_c62"}}
 
 -- 用pyarrow可以生成一般的parquet file, 但pyarrow還不支援nested field (struct), 用spark convert format更簡單
+
+
+
+/*
+Athena error: HIVE_CANNOT_OPEN_SPLIT
+- "corrupted" Parquet files
+- Parquet file inspection tool: https://github.com/apache/parquet-mr/tree/master/parquet-tools
+
+
+Split
+- splits are sections of a large data set
+- “Lowest level stages retrieve data via splits from connectors”
+- “Intermediate stages (at a higher level of a distributed query plan) retrieve data from other stages”
+*/
