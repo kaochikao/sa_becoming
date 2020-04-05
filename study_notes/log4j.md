@@ -1,4 +1,4 @@
-
+# Log4J
 
 
 ### custom log4j config file
@@ -40,10 +40,12 @@ public class Main {
 
 
 ### Logger hierarchy
+```
 root
 |_com
 |_come.foo
 |_come.foo.bar
+```
 
 child logger inherit parent logger's properties when not explicitly set
 
