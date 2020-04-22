@@ -1,6 +1,6 @@
 
 
-- [ ] Thrift Server Note
+- [X] Thrift Server Note
 - [ ] Spark metastore settings 筆記
 - [X] Elasticsearch .kibana restore 筆記
 - [ ] Hive 筆記
@@ -9,4 +9,7 @@
 - [X] RDS 筆記
     - query general logs
 - [X] spark scala udf 筆記
-- [ ]  Glue Spark UI Environment page sample
+- [ ] Glue Spark UI Environment page sample
+- [ ] Glue create table in ETL job
+- [ ] EMR Start Spark step
+- [ ] create an EMR custom AMI
